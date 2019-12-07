@@ -9,7 +9,7 @@ public class Main {
 <<<<<<< HEAD
         odejmowanie();
     }
-
+    <<<<<<< HEAD
     static void odejmowanie(){
         Scanner scanner = new Scanner(System.in);
         int v,b,n;
@@ -21,6 +21,8 @@ public class Main {
 
         n = v-b;
         System.out.print("Wynik odejmowania to: " + n);
+        =======
+        >>>>>>> druga
 =======
 
         int z = 0;
