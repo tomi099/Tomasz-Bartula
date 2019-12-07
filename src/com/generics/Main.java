@@ -28,6 +28,7 @@ public class Main {
             System.out.print("*");
         }
 >>>>>>> master
+        System.out.print("To jest jakis tekst ");
 
     }
 }
