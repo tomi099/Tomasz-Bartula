@@ -6,10 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-<<<<<<< HEAD
         odejmowanie();
     }
-    <<<<<<< HEAD
+
     static void odejmowanie(){
         Scanner scanner = new Scanner(System.in);
         int v,b,n;
@@ -21,15 +20,12 @@ public class Main {
 
         n = v-b;
         System.out.print("Wynik odejmowania to: " + n);
-        =======
-        >>>>>>> druga
-=======
 
         int z = 0;
         for (z < 10, z++;){
             System.out.print("*");
         }
->>>>>>> pierwsza
+
         System.out.print("To jest jakis tekst ");
 
     }
