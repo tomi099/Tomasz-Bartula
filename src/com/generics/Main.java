@@ -27,7 +27,7 @@ public class Main {
         for (z < 10, z++;){
             System.out.print("*");
         }
->>>>>>> master
+>>>>>>> pierwsza
         System.out.print("To jest jakis tekst ");
 
     }
