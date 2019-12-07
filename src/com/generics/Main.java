@@ -1,11 +1,12 @@
 package com.generics;
 
-import java.util.Scanner;
+        import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         odejmowanie();
     }
 
@@ -20,6 +21,13 @@ public class Main {
 
         n = v-b;
         System.out.print("Wynik odejmowania to: " + n);
+=======
+
+        int z = 0;
+        for (z < 10, z++;){
+            System.out.print("*");
+        }
+>>>>>>> master
 
     }
 }
