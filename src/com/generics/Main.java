@@ -5,13 +5,21 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	 int a,b,c;
-	    a = 6;
-        b = 3;
-        c = a+b;
 
-        System.out.println("6 + 3 = " + c);
+        odejmowanie();
+    }
 
+    static void odejmowanie(){
+        Scanner scanner = new Scanner(System.in);
+        int v,b,n;
+
+        System.out.print("Wprowadz pierwsza liczbe: ");
+        v = scanner.nextInt();
+        System.out.print("Wprowadz druga liczbe: ");
+        b = scanner.nextInt();
+
+        n = v-b;
+        System.out.print("Wynik odejmowania to: " + n);
 
     }
 }
